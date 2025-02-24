@@ -1,0 +1,9 @@
+Call the code by calling 
+python NN.py x y z train.csv test.csv
+
+x is the depth value, y is the breadth value, and z is the number of training cycles.
+You can replace the csv files with different files. I chose to use the sigmoid activation
+function for all layers of the NN, so my accuracy usually rounds out to be 56.69% with my smaller
+data set and 50.74% with the larger set.
+If no output had been printed, the program is likely running slower due to the large file
+size or the large number of training cycles. 
